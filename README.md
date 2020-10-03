@@ -19,10 +19,10 @@
 	* `void remove(String name)`
 		* removes an entry to the composite associate data type
 	* `Boolean hasEntry(String name)`
-		* removes an entry to the composite associate data type		
+		* checks an entry to the composite associate data type		
 	* `List<String> lookup(String name)`
 		* returns a phone number for the respective input `name`
 	* `String reverseLookup(String phoneNumber)`
 		* returns a name for the respective input `phoneNumber`
-	* `String getAllContactNames()`
+	* `List<String> getAllContactNames()`
 		* returns a list of all names in this `PhoneBook`# PhoneBook
